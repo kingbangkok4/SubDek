@@ -16,7 +16,7 @@ public class MainActivity extends Activity{
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(getBaseContext(), MainActivity.class);
+                Intent i = new Intent(getBaseContext(), MainMenuActivity.class);
                 startActivity(i);
                 finish();
             }
