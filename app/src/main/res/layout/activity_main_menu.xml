@@ -1,47 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@drawable/main_menu">
 
 
-    <TableRow
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ma"
+        android:layout_marginTop="10dp" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:id="@+id/button"
-            android:layout_column="16"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/ma"
-            android:layout_marginTop="10dp" />
-    </TableRow>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnAlphabet"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bt_alphabet" />
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></TableRow>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnDay"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/btnAlphabet"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bt_day" />
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnMonths"
+        android:background="@drawable/bt_months"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btnAlphabet" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:text="New 1"
-            android:id="@+id/button2"
-            />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnNumber"
+        android:background="@drawable/bt_number"
+        android:layout_alignTop="@+id/btnMonths"
+        android:layout_alignStart="@+id/btnDay" />
 
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="50dp"
-            android:text="New 2"
-            android:id="@+id/button3"
-            android:layout_column="15" />
-    </TableRow>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnColor"
+        android:background="@drawable/bt_color"
+        android:layout_gravity="center"
+        android:layout_below="@+id/btnMonths"
+        android:layout_centerHorizontal="true" />
 
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnAbount"
+        android:background="@drawable/bt_abount"
+        android:layout_below="@+id/btnColor"
+        android:layout_alignStart="@+id/btnMonths"
+        android:layout_marginTop="34dp" />
 
-
-</TableLayout>
+</RelativeLayout>
