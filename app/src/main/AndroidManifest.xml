@@ -18,6 +18,11 @@
         <activity android:name=".MainMenuActivity" android:screenOrientation="portrait"/>
         <activity android:name=".AbountActivity" android:screenOrientation="portrait"/>
         <activity android:name=".AlphabetActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DayActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MonthsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NumberActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ColorActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DisplayActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
