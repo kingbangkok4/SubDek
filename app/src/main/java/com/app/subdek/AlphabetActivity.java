@@ -13,6 +13,7 @@ public class AlphabetActivity extends Activity {
     Button btnA, btnB, btnC, btnD, btnE, btnF, btnG, btnH, btnI, btnJ, btnK, btnL, btnM, btnN, btnO, btnP, btnQ, btnR, btnS, btnT, btnU, btnV, btnW, btnX, btnY, btnZ;
     Button btnSound,btnGroup,btnHome;
     Boolean sound = true;
+    String group = "Alphabet";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +61,7 @@ public class AlphabetActivity extends Activity {
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new  Intent(getBaseContext(), MainActivity.class);
+                Intent i = new Intent(getBaseContext(), MainActivity.class);
                 startActivity(i);
             }
         });
@@ -87,8 +88,258 @@ public class AlphabetActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
-                i.putExtra("group","Alphabet");
+                i.putExtra("group",group);
                 i.putExtra("imgBackground","a");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","b");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","c");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","d");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","e");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","f");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","g");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","h");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","i");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnJ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","j");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnK.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","k");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnL.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","l");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnM.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","m");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","n");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","o");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","p");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnQ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","q");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","r");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","s");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","t");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnU.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","u");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","v");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnW.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","w");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnX.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","x");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnY.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","y");
+                i.putExtra("sound",sound);
+                startActivity(i);
+            }
+        });
+        btnZ.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new  Intent(getBaseContext(), DisplayActivity.class);
+                i.putExtra("group",group);
+                i.putExtra("imgBackground","z");
                 i.putExtra("sound",sound);
                 startActivity(i);
             }

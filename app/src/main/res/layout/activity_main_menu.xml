@@ -65,8 +65,9 @@
         android:layout_height="60dp"
         android:id="@+id/btnAbount"
         android:background="@drawable/bt_abount"
-        android:layout_below="@+id/btnColor"
-        android:layout_alignStart="@+id/btnMonths"
-        android:layout_marginTop="34dp" />
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
 
 </RelativeLayout>

@@ -32,25 +32,29 @@ public class MainMenuActivity extends Activity{
         btnDay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(getBaseContext(), DayActivity.class);
+                startActivity(i);
             }
         });
         btnMonths.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(getBaseContext(), MonthsActivity.class);
+                startActivity(i);
             }
         });
         btnNumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(getBaseContext(), NumberActivity.class);
+                startActivity(i);
             }
         });
         btnColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(getBaseContext(), ColorActivity.class);
+                startActivity(i);
             }
         });
 

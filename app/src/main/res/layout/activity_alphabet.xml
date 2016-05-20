@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/main_menu">
+    android:background="@drawable/bg_alphabet">
 
 
     <Button
@@ -13,7 +13,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/title_alphabet"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp" />
 
     <Button
         android:layout_width="60dp"
@@ -30,17 +31,17 @@
         android:id="@+id/btnGroup"
         android:background="@drawable/bt_group"
         android:layout_marginRight="10dp"
-        android:layout_alignTop="@+id/btnSound"
-        android:layout_toEndOf="@+id/btnX"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:id="@+id/btnSound"
         android:background="@drawable/bt_sound"
-        android:layout_marginTop="34dp"
-        android:layout_below="@+id/btnZ"
+        android:layout_alignTop="@+id/btnGroup"
         android:layout_toEndOf="@+id/btnGroup" />
 
     <Button
