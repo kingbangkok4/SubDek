@@ -25,13 +25,13 @@ public class DayActivity extends Activity{
             sound = extras.getBoolean("sound");
         }
 
-        btnSun = (Button)findViewById(R.id.btnSun);
-        btnMon = (Button)findViewById(R.id.btnMon);
-        btnTue = (Button)findViewById(R.id.btnTue);
+        btnSun = (Button)findViewById(R.id.btnYellow);
+        btnMon = (Button)findViewById(R.id.btnOrange);
+        btnTue = (Button)findViewById(R.id.btnRed);
         btnWed = (Button)findViewById(R.id.btnWed);
-        btnThu = (Button)findViewById(R.id.btnThu);
-        btnFri = (Button)findViewById(R.id.btnFri);
-        btnSat = (Button)findViewById(R.id.btnSat);
+        btnThu = (Button)findViewById(R.id.btnSkyBlue);
+        btnFri = (Button)findViewById(R.id.btnBlue);
+        btnSat = (Button)findViewById(R.id.btnGreen);
 
         btnHome = (Button)findViewById(R.id.btnHome);
         btnGroup = (Button)findViewById(R.id.btnGroup);

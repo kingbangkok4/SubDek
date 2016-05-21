@@ -71,11 +71,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.a);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.ant);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.ant_th);
                     mMedia.start();
@@ -84,11 +84,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.b);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.bird);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.bird_th);
                     mMedia.start();
@@ -97,11 +97,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.c);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.crab);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.crab_th);
                     mMedia.start();
@@ -110,11 +110,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.d);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.dog);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.dog_th);
                     mMedia.start();
@@ -123,11 +123,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.e);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.elephant);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.elephant_th);
                     mMedia.start();
@@ -136,11 +136,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.f);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.fish);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.fish_th);
                     mMedia.start();
@@ -149,11 +149,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.g);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.giraffe);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.giraffe_th);
                     mMedia.start();
@@ -162,11 +162,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.h);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.hen);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.hen_th);
                     mMedia.start();
@@ -175,11 +175,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.i);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.insect);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.insect_th);
                     mMedia.start();
                     break;
@@ -187,11 +187,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.j);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.jellyfish);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.jellyfish_th);
                     mMedia.start();
@@ -200,11 +200,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.k);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.kangaroo);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.kangaroo_th);
                     mMedia.start();
@@ -213,11 +213,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.l);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.lion);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.lion_th);
                     mMedia.start();
@@ -226,11 +226,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.m);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.monkey);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.monkey_th);
                     mMedia.start();
@@ -239,11 +239,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.n);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.nacre);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.nacre_th);
                     mMedia.start();
@@ -252,11 +252,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.o);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.ox);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.ox_th);
                     mMedia.start();
@@ -265,11 +265,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.p);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.penguin);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.penguin_th);
                     mMedia.start();
@@ -278,11 +278,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.q);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.queenbee);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.queenbee_th);
                     mMedia.start();
@@ -291,11 +291,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.r);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.rabbit);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.rabbit_th);
                     mMedia.start();
@@ -304,11 +304,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.s);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.sheep);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.sheep_th);
                     mMedia.start();
@@ -317,11 +317,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.t);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.tiger);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.tiger_th);
                     mMedia.start();
@@ -330,11 +330,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.u);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.unicorn);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.unicorn_th);
                     mMedia.start();
@@ -343,11 +343,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.v);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.vulture);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.vulture_th);
                     mMedia.start();
@@ -356,11 +356,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.w);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.whale);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.white_th);
                     mMedia.start();
@@ -369,11 +369,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.x);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.xiphias);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.xiphias_th);
                     mMedia.start();
@@ -382,11 +382,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.y);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.yak);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.yak_th);
                     mMedia.start();
@@ -395,11 +395,11 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.z);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.zebra);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.zebra_th);
                     mMedia.start();
@@ -409,7 +409,7 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.sunday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.sunday_th);
                     mMedia.start();
@@ -418,7 +418,7 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.monday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.monday_th);
                     mMedia.start();
@@ -427,7 +427,7 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.tuesday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.tuesday_th);
                     mMedia.start();
@@ -436,7 +436,7 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.wednesday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.wednesday_th);
                     mMedia.start();
@@ -445,7 +445,7 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.thursday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.thursday_th);
                     mMedia.start();
@@ -454,7 +454,7 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.friday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.friday_th);
                     mMedia.start();
@@ -463,12 +463,302 @@ public class DisplayActivity extends Activity {
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.saturday);
                     mMedia.start();
-                    DelayTime();
+                    DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.saturday_th);
                     mMedia.start();
                     break;
-
+                //----------------------Months----------------------------------
+                case "january":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.january);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.january_th);
+                    mMedia.start();
+                    break;
+                case "february":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.february);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.february_th);
+                    mMedia.start();
+                    break;
+                case "march":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.march);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.march_th);
+                    mMedia.start();
+                    break;
+                case "april":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.april);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.april_th);
+                    mMedia.start();
+                    break;
+                case "may":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.may);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.may_th);
+                    mMedia.start();
+                    break;
+                case "june":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.june);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.june_th);
+                    mMedia.start();
+                    break;
+                case "july":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.july);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.july_th);
+                    mMedia.start();
+                    break;
+                case "august":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.august);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.august_th);
+                    mMedia.start();
+                    break;
+                case "september":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.september);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.september_th);
+                    mMedia.start();
+                    break;
+                case "october":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.october);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.october_th);
+                    mMedia.start();
+                    break;
+                case "november":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.november);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.november_th);
+                    mMedia.start();
+                    break;
+                case "december":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.december);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.december_th);
+                    mMedia.start();
+                    break;
+                //------------------------- Number ------------------------------------
+                case "one":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.one);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.one_th);
+                    mMedia.start();
+                    break;
+                case "two":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.two);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.two_th);
+                    mMedia.start();
+                    break;
+                case "three":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.three);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.three_th);
+                    mMedia.start();
+                    break;
+                case "four":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.four);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.four_th);
+                    mMedia.start();
+                    break;
+                case "five":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.five);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.five_th);
+                    mMedia.start();
+                    break;
+                case "six":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.six);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.six_th);
+                    mMedia.start();
+                    break;
+                case "seven":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.seven);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.seven_th);
+                    mMedia.start();
+                    break;
+                case "eight":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eight);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eight_th);
+                    mMedia.start();
+                    break;
+                case "nine":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.nine);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.nine_th);
+                    mMedia.start();
+                    break;
+                case "ten":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.ten);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.ten_th);
+                    mMedia.start();
+                    break;
+                //------------------------- Color -------------------------------------
+                case "yellow":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.yellow);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.yellow_th);
+                    mMedia.start();
+                    break;
+                case "skyblue":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.skyblue);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.skyblue_th);
+                    mMedia.start();
+                    break;
+                case "orange":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.orange);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.orange_th);
+                    mMedia.start();
+                    break;
+                case "blue":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.blue);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.blue_th);
+                    mMedia.start();
+                    break;
+                case "red":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.red);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.red_th);
+                    mMedia.start();
+                    break;
+                case "green":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.green);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.green_th);
+                    mMedia.start();
+                    break;
+                case "pink":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.pink);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.pink_th);
+                    mMedia.start();
+                    break;
+                case "black":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.black);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.black_th);
+                    mMedia.start();
+                    break;
+                case "purple":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.purple);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.purple_th);
+                    mMedia.start();
+                    break;
+                case "white":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.white);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.white_th);
+                    mMedia.start();
+                    break;
             }
         }
     }
@@ -486,9 +776,9 @@ public class DisplayActivity extends Activity {
         }
     }
 
-    private void DelayTime() {
+    private void DelayTime(Integer times) {
         try {
-            Thread.sleep(2000);
+            Thread.sleep(times);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
         }

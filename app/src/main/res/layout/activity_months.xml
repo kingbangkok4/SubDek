@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_months">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/title_months"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnHome"
+        android:background="@drawable/bt_home"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/btnGroup"
+        android:layout_toStartOf="@+id/btnGroup" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnGroup"
+        android:background="@drawable/bt_group"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/btnSound"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSound"
+        android:background="@drawable/bt_sound"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btnGroup"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnYellow"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_january"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnFebruary"
+        android:background="@drawable/bt_february"
+        android:layout_alignBottom="@+id/btnYellow"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnMarch"
+        android:background="@drawable/bt_march"
+        android:layout_alignBottom="@+id/btnFebruary"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnApril"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bt_april"
+        android:layout_below="@+id/btnYellow"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnMay"
+        android:background="@drawable/bt_may"
+        android:layout_alignBottom="@+id/btnApril"
+        android:layout_alignStart="@+id/btnFebruary" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnJune"
+        android:background="@drawable/bt_june"
+        android:layout_alignBottom="@+id/btnMay"
+        android:layout_alignStart="@+id/btnMarch" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnJuly"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bt_july"
+        android:layout_below="@+id/btnApril"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnAugust"
+        android:background="@drawable/bt_august"
+        android:layout_alignBottom="@+id/btnJuly"
+        android:layout_alignStart="@+id/btnMay" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnSeptember"
+        android:background="@drawable/bt_september"
+        android:layout_alignBottom="@+id/btnAugust"
+        android:layout_alignStart="@+id/btnJune" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnOctober"
+        android:background="@drawable/bt_october"
+        android:layout_below="@+id/btnJuly"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnNovember"
+        android:background="@drawable/bt_november"
+        android:layout_alignTop="@+id/btnOctober"
+        android:layout_alignStart="@+id/btnAugust" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnDecember"
+        android:background="@drawable/bt_december"
+        android:layout_alignBottom="@+id/btnNovember"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
