@@ -25,7 +25,7 @@ public class MainMenuActivity extends Activity{
         btnAlphabet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), AlphabetActivity.class);
+                Intent i = new Intent(getBaseContext(), LoadindActivity.class);
                 i.putExtra("group","Alphabet");
                 startActivity(i);
             }
@@ -33,7 +33,7 @@ public class MainMenuActivity extends Activity{
         btnDay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), DayActivity.class);
+                Intent i = new Intent(getBaseContext(), LoadindActivity.class);
                 i.putExtra("group","Day");
                 startActivity(i);
             }
@@ -41,7 +41,7 @@ public class MainMenuActivity extends Activity{
         btnMonths.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), MonthsActivity.class);
+                Intent i = new Intent(getBaseContext(), LoadindActivity.class);
                 i.putExtra("group","Months");
                 startActivity(i);
             }
@@ -49,7 +49,7 @@ public class MainMenuActivity extends Activity{
         btnNumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), NumberActivity.class);
+                Intent i = new Intent(getBaseContext(), LoadindActivity.class);
                 i.putExtra("group","Number");
                 startActivity(i);
             }
@@ -57,7 +57,7 @@ public class MainMenuActivity extends Activity{
         btnColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), ColorActivity.class);
+                Intent i = new Intent(getBaseContext(), LoadindActivity.class);
                 i.putExtra("group","Color");
                 startActivity(i);
             }

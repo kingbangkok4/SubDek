@@ -18,7 +18,7 @@ public class ColorActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_number);
+        setContentView(R.layout.activity_color);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {

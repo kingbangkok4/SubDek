@@ -49,6 +49,6 @@ public class LoadindActivity extends Activity{
                         break;
                 }
             }
-        }, 2000);
+        }, 1000);
     }
 }
