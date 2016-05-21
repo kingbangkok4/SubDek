@@ -23,6 +23,7 @@
         <activity android:name=".NumberActivity" android:screenOrientation="portrait"/>
         <activity android:name=".ColorActivity" android:screenOrientation="portrait"/>
         <activity android:name=".DisplayActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LoadindActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

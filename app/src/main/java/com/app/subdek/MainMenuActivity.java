@@ -26,6 +26,7 @@ public class MainMenuActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getBaseContext(), AlphabetActivity.class);
+                i.putExtra("group","Alphabet");
                 startActivity(i);
             }
         });
@@ -33,6 +34,7 @@ public class MainMenuActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getBaseContext(), DayActivity.class);
+                i.putExtra("group","Day");
                 startActivity(i);
             }
         });
@@ -40,6 +42,7 @@ public class MainMenuActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getBaseContext(), MonthsActivity.class);
+                i.putExtra("group","Months");
                 startActivity(i);
             }
         });
@@ -47,6 +50,7 @@ public class MainMenuActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getBaseContext(), NumberActivity.class);
+                i.putExtra("group","Number");
                 startActivity(i);
             }
         });
@@ -54,6 +58,7 @@ public class MainMenuActivity extends Activity{
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getBaseContext(), ColorActivity.class);
+                i.putExtra("group","Color");
                 startActivity(i);
             }
         });
