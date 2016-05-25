@@ -26,7 +26,7 @@ public class AlphabetActivity extends Activity {
         }
 
         btnHome = (Button)findViewById(R.id.btnHome);
-        btnGroup = (Button)findViewById(R.id.btnGroup);
+       // btnGroup = (Button)findViewById(R.id.btnGroup);
         btnSound = (Button)findViewById(R.id.btnSound);
 
         btnA = (Button)findViewById(R.id.btnA);
@@ -61,17 +61,17 @@ public class AlphabetActivity extends Activity {
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), MainActivity.class);
+                Intent i = new Intent(getBaseContext(), MainMenuActivity.class);
                 startActivity(i);
             }
         });
-        btnGroup.setOnClickListener(new View.OnClickListener() {
+        /*btnGroup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new  Intent(getBaseContext(), MainMenuActivity.class);
                 startActivity(i);
             }
-        });
+        });*/
         btnSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

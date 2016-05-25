@@ -26,7 +26,7 @@ public class NumberActivity extends Activity {
         }
 
         btnHome = (Button) findViewById(R.id.btnHome);
-        btnGroup = (Button) findViewById(R.id.btnGroup);
+       // btnGroup = (Button) findViewById(R.id.btnGroup);
         btnSound = (Button) findViewById(R.id.btnSound);
 
         btnOne = (Button) findViewById(R.id.btnYellow);
@@ -45,17 +45,17 @@ public class NumberActivity extends Activity {
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), MainActivity.class);
+                Intent i = new Intent(getBaseContext(), MainMenuActivity.class);
                 startActivity(i);
             }
         });
-        btnGroup.setOnClickListener(new View.OnClickListener() {
+       /* btnGroup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getBaseContext(), MainMenuActivity.class);
                 startActivity(i);
             }
-        });
+        });*/
         btnSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

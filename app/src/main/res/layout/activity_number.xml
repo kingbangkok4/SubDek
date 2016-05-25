@@ -19,34 +19,6 @@
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:id="@+id/btnHome"
-        android:background="@drawable/bt_home"
-        android:layout_marginRight="10dp"
-        android:layout_alignTop="@+id/btnGroup"
-        android:layout_toStartOf="@+id/btnGroup" />
-
-    <Button
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/btnGroup"
-        android:background="@drawable/bt_group"
-        android:layout_marginRight="10dp"
-        android:layout_gravity="center"
-        android:layout_alignTop="@+id/btnSound"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/btnSound"
-        android:background="@drawable/bt_sound"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/btnGroup"
-        android:layout_marginBottom="20dp" />
-
-    <Button
-        android:layout_width="60dp"
-        android:layout_height="60dp"
         android:id="@+id/btnYellow"
         android:background="@drawable/bt_one"
         android:layout_marginLeft="100dp"
@@ -121,9 +93,8 @@
         android:layout_height="60dp"
         android:id="@+id/btnNine"
         android:background="@drawable/bt_nine"
-        android:layout_below="@+id/btnPink"
-        android:layout_toStartOf="@+id/btnGroup"
-        android:layout_marginTop="10dp" />
+        android:layout_alignTop="@+id/btnTen"
+        android:layout_alignStart="@+id/btnPink" />
 
     <Button
         android:layout_width="60dp"
@@ -133,5 +104,23 @@
         android:layout_below="@+id/btnBlack"
         android:layout_alignStart="@+id/btnBlack"
         android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnHome"
+        android:background="@drawable/bt_home"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnNine" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSound"
+        android:background="@drawable/bt_sound"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnTen"
+        android:layout_gravity="center" />
 
 </RelativeLayout>
