@@ -4,14 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.Switch;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Administrator on 20-May-16.
@@ -362,7 +357,7 @@ public class DisplayActivity extends Activity {
                     mMedia.start();
                     DelayTime(2000);
                     stopPlaying();
-                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.white_th);
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.whale_th);
                     mMedia.start();
                     break;
                 case "x":
