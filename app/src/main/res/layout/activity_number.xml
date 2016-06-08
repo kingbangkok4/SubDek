@@ -112,15 +112,15 @@
         android:background="@drawable/bt_home"
         android:layout_marginRight="10dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/btnNine" />
+        android:layout_toEndOf="@+id/btnNine" />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:id="@+id/btnSound"
         android:background="@drawable/bt_sound"
+        android:layout_gravity="center"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/btnTen"
-        android:layout_gravity="center" />
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

@@ -23,7 +23,7 @@
         android:background="@drawable/bt_home"
         android:layout_marginRight="10dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/btnPurple" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="60dp"
@@ -31,7 +31,7 @@
         android:id="@+id/btnSound"
         android:background="@drawable/bt_sound"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/btnPurple" />
+        android:layout_alignEnd="@+id/btnWhite" />
 
     <Button
         android:layout_width="180dp"

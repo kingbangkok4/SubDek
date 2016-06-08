@@ -4,21 +4,25 @@ import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
+
+import java.util.Arrays;
 
 /**
  * Created by Administrator on 20-May-16.
  */
 public class DisplayActivity extends Activity {
     RelativeLayout layoutDisplay;
-    Button btnBack, btnSound;
+    Button btnNext, btnBack, btnSound, btnGroup;
     String imgBackground;
     Boolean sound;
     String strSound;
     String group;
     MediaPlayer mMedia;
+    String[] groupArray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +30,9 @@ public class DisplayActivity extends Activity {
         setContentView(R.layout.activity_display);
 
         layoutDisplay = (RelativeLayout) findViewById(R.id.layoutDisplay);
+        btnNext = (Button) findViewById(R.id.btnNext);
         btnBack = (Button) findViewById(R.id.btnBack);
+        btnGroup = (Button) findViewById(R.id.btnGroup);
         btnSound = (Button) findViewById(R.id.btnSound);
 
         Bundle extras = getIntent().getExtras();
@@ -48,15 +54,56 @@ public class DisplayActivity extends Activity {
                 }
             }
         });
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        btnGroup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 stopPlaying();
                 CheckGroup();
             }
         });
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Back();
+            }
+        });
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Next();
+            }
+        });
         CheckSound();
         SetDisplay();
+
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (sound) {
+                    PlaySound();
+                }
+            }
+        }, 1000);
+
+
+        switch (group) {
+            case "Alphabet":
+                groupArray = new String[]{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+                break;
+            case "Day":
+                groupArray = new String[]{"sun", "mon", "tue", "wed", "thu", "fri", "sat"};
+                break;
+            case "Months":
+                groupArray = new String[]{"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
+                break;
+            case "Number":
+                groupArray = new String[]{"one", "two", "three", "four", "five", "six", "eight", "nine", "ten"};
+                break;
+            case "Color":
+                groupArray = new String[]{"yellow", "skyblue", "orange", "red", "green", "pink", "black", "purple", "white"};
+                break;
+        }
     }
 
     private void PlaySound() {
@@ -807,6 +854,48 @@ public class DisplayActivity extends Activity {
                 startActivity(i5);
                 break;
         }
+    }
+
+    private  void Next(){
+        int max = groupArray.length - 1;
+        int index = Arrays.binarySearch(groupArray, imgBackground);
+        if(index == max){
+            index = 0;
+        }else {
+            index += 1;
+        }
+        imgBackground = groupArray[index];
+        SetDisplay();
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (sound) {
+                    PlaySound();
+                }
+            }
+        }, 1000);
+    }
+
+    private  void Back(){
+        int max = groupArray.length - 1;
+        int index = Arrays.binarySearch(groupArray, imgBackground);
+        if(index == 0){
+            index = max;
+        }else {
+            index -= 1;
+        }
+        imgBackground = groupArray[index];
+        SetDisplay();
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (sound) {
+                    PlaySound();
+                }
+            }
+        }, 1000);
     }
 
     private void stopPlaying() {
