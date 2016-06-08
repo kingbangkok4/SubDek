@@ -15,7 +15,7 @@ import java.util.Arrays;
  * Created by Administrator on 20-May-16.
  */
 public class DisplayActivity extends Activity {
-    RelativeLayout layoutDisplay;
+    //RelativeLayout layoutDisplay;
     Button btnNext, btnBack, btnSound, btnGroup;
     String imgBackground;
     Boolean sound;
@@ -29,7 +29,7 @@ public class DisplayActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
 
-        layoutDisplay = (RelativeLayout) findViewById(R.id.layoutDisplay);
+        //layoutDisplay = (RelativeLayout) findViewById(R.id.layoutDisplay);
         btnNext = (Button) findViewById(R.id.btnNext);
         btnBack = (Button) findViewById(R.id.btnBack);
         btnGroup = (Button) findViewById(R.id.btnGroup);
@@ -806,6 +806,7 @@ public class DisplayActivity extends Activity {
     }
 
     private void SetDisplay() {
+        RelativeLayout layoutDisplay = (RelativeLayout) findViewById(R.id.layoutDisplay);
         int resBackgroundId = getResources().getIdentifier(imgBackground, "drawable", getPackageName());
         layoutDisplay.setBackgroundResource(resBackgroundId);
     }
@@ -871,6 +872,7 @@ public class DisplayActivity extends Activity {
             @Override
             public void run() {
                 if (sound) {
+                    stopPlaying();
                     PlaySound();
                 }
             }
@@ -892,6 +894,7 @@ public class DisplayActivity extends Activity {
             @Override
             public void run() {
                 if (sound) {
+                    stopPlaying();
                     PlaySound();
                 }
             }
@@ -900,7 +903,9 @@ public class DisplayActivity extends Activity {
 
     private void stopPlaying() {
         if (mMedia != null) {
+            super.onDestroy();
             mMedia.stop();
+            mMedia.reset();
             mMedia.release();
             mMedia = null;
         }
