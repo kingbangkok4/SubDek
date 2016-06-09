@@ -859,7 +859,7 @@ public class DisplayActivity extends Activity {
 
     private  void Next(){
         int max = groupArray.length - 1;
-        int index = Arrays.binarySearch(groupArray, imgBackground);
+        int index = Math.abs(Arrays.binarySearch(groupArray, imgBackground));
         if(index == max){
             index = 0;
         }else {
@@ -881,7 +881,7 @@ public class DisplayActivity extends Activity {
 
     private  void Back(){
         int max = groupArray.length - 1;
-        int index = Arrays.binarySearch(groupArray, imgBackground);
+        int index = Math.abs(Arrays.binarySearch(groupArray, imgBackground));
         if(index == 0){
             index = max;
         }else {
