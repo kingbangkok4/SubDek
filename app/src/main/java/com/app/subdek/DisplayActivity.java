@@ -98,7 +98,9 @@ public class DisplayActivity extends Activity {
                 groupArray = new String[]{"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
                 break;
             case "Number":
-                groupArray = new String[]{"one", "two", "three", "four", "five", "six", "eight", "nine", "ten"};
+                groupArray = new String[]{"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+                                          "eleven", "twelvee", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty",
+                                          "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety", "onehundred"};
                 break;
             case "Color":
                 groupArray = new String[]{"yellow", "skyblue", "orange", "red", "green", "pink", "black", "purple", "white"};
@@ -708,6 +710,168 @@ public class DisplayActivity extends Activity {
                     DelayTime(2000);
                     stopPlaying();
                     mMedia = MediaPlayer.create(getBaseContext(), R.raw.ten_th);
+                    mMedia.start();
+                    break;
+                case "eleven":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eleven);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eleven_th);
+                    mMedia.start();
+                    break;
+                case "twelvee":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.twelvee);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.twelvee_th);
+                    mMedia.start();
+                    break;
+                case "thirteen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.thirteen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.thirteen_th);
+                    mMedia.start();
+                    break;
+                case "fourteen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fourteen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fourteen_th);
+                    mMedia.start();
+                    break;
+                case "fifteen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fifteen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fifteen_th);
+                    mMedia.start();
+                    break;
+                case "sixteen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.sixteen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.sixteen_th);
+                    mMedia.start();
+                    break;
+                case "seventeen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.seventeen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.seventeen_th);
+                    mMedia.start();
+                    break;
+                case "eighteen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eighteen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eighteen_th);
+                    mMedia.start();
+                    break;
+                case "nineteen":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.nineteen);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.nineteen_th);
+                    mMedia.start();
+                    break;
+                case "twenty":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.twenty);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.twenty_th);
+                    mMedia.start();
+                    break;
+                case "thirty":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.thirty);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.thirty_th);
+                    mMedia.start();
+                    break;
+                case "fourty":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fourty);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fourty_th);
+                    mMedia.start();
+                    break;
+                case "fifty":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fifty);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.fifty_th);
+                    mMedia.start();
+                    break;
+                case "sixty":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.sixty);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.sixty_th);
+                    mMedia.start();
+                    break;
+                case "seventy":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.seventy);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.seventy_th);
+                    mMedia.start();
+                    break;
+                case "eighty":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eighty);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.eighty_th);
+                    mMedia.start();
+                    break;
+                case "ninety":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.ninety);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.ninety_th);
+                    mMedia.start();
+                    break;
+                case "onehundred":
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.onehundred);
+                    mMedia.start();
+                    DelayTime(2000);
+                    stopPlaying();
+                    mMedia = MediaPlayer.create(getBaseContext(), R.raw.onehundred_th);
                     mMedia.start();
                     break;
                 //------------------------- Color -------------------------------------
