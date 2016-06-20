@@ -1023,7 +1023,7 @@ public class DisplayActivity extends Activity {
 
     private  void Next(){
         int max = groupArray.length - 1;
-        int index = Math.abs(Arrays.binarySearch(groupArray, imgBackground));
+        int index = GetIndexOfArray(imgBackground);
         if(index == max){
             index = 0;
         }else {
@@ -1045,7 +1045,7 @@ public class DisplayActivity extends Activity {
 
     private  void Back(){
         int max = groupArray.length - 1;
-        int index = Math.abs(Arrays.binarySearch(groupArray, imgBackground));
+        int index = GetIndexOfArray(imgBackground);
         if(index == 0){
             index = max;
         }else {
@@ -1063,6 +1063,15 @@ public class DisplayActivity extends Activity {
                 }
             }
         }, 1000);
+    }
+
+    private int GetIndexOfArray(String valueString){
+        for (int i = 0; i < groupArray.length; i++) {
+            if(groupArray[i].equals(valueString)){
+                return i;
+            }
+        }
+        return 0;
     }
 
     private void stopPlaying() {
